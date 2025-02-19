@@ -7,3 +7,5 @@
 Backend Key: srv-cuqs925umphs73evoq5g
 Frontend Key: srv-cuqt1al2ng1s73fanung
 Render API KEY:rnd_h9Q08yHmOCmLFTpDjYsLm1jE
+
+Render API KEY NEW:rnd_8hNpBlklCUUdhOwKkGYtfAt69YMl
