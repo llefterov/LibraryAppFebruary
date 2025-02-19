@@ -1,0 +1,9 @@
+1. Start BE on localhost
+2. Start FE on localhost
+3. Run UI Tests
+4. Deploy BE to Render
+5. Deploy FE to Render
+
+Backend Key:
+Frontend Key:
+Render API KEY:
