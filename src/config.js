@@ -1,0 +1,1 @@
+export const settings = {host: "https://libraryappfebruary-gjux.onrender.com"}
