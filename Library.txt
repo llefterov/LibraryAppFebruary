@@ -6,4 +6,4 @@
 
 Backend Key:
 Frontend Key:
-Render API KEY:
+Render API KEY:rnd_h9Q08yHmOCmLFTpDjYsLm1jECxNq
