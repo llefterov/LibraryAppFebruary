@@ -4,6 +4,6 @@
 4. Deploy BE to Render
 5. Deploy FE to Render
 
-Backend Key:
-Frontend Key:
-Render API KEY:rnd_h9Q08yHmOCmLFTpDjYsLm1jECxNq
+Backend Key: srv-cuqs925umphs73evoq5g
+Frontend Key: srv-cuqt1al2ng1s73fanung
+Render API KEY:rnd_h9Q08yHmOCmLFTpDjYsLm1jE
