@@ -7,22 +7,17 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build:
+  build_test:
 
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [18.x, 20.x, 22.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
+     
     steps:
     - name: Checkout the repository
       uses: actions/checkout@v4
     - name: Use Node.js v20
       uses: actions/setup-node@v4
       with:
-        node-version: v20
+        node-version: 20
         cache: 'npm'
     - name: Install NPM modules 
       run: npm install
@@ -30,6 +25,8 @@ jobs:
       run: npm run start-be &
     - name: Start FrontEnd
       run: npm run start-fe &
+    - name: Install Browsers
+      run: npx playwright install
     - name: Execute UI tests
       run: npm test:ui
   
